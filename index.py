@@ -7,7 +7,7 @@ THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
 root = Tk()  
 canvas = Canvas(root, width = 1000, height = 1000)  
 canvas.pack()  
-images =[] #we will append all images in current folder
+images =[] #we will append all images for current folder
 
 # get all images with for loop
 for x in range(6):
